@@ -21,10 +21,6 @@
   {% if theme.sidebar.position %}
     {% set container_class = container_class + 'sidebar-position-' + theme.sidebar.position %}
   {% endif %}
-  <div class="bg_content">
-    <div class="filter"></div>
-    <canvas id="canvas"></canvas>
-  </div>
   <div class="{{ container_class }} {% block page_class %}{% endblock %}">
     <div class="headband"></div>
 
